@@ -9,6 +9,11 @@ class Api::PhotosController < ApplicationController
     render :show
   end
 
+  def edit
+    1/0
+    render text: "i didnt make it here"
+  end
+
   def update
     @photo = Photo.find(params[:id])
 
