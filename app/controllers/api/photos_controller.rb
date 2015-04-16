@@ -10,7 +10,6 @@ class Api::PhotosController < ApplicationController
   end
 
   def edit
-    1/0
     render text: "i didnt make it here"
   end
 

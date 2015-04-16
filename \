@@ -1,0 +1,2 @@
+json.array!(@photos_ do |photo| :id, :title, :url, :created_at, :updated_at)
+
